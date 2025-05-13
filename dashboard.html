@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Account Dashboard</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="account-info">
+            <h1>Your Account Dashboard</h1>
+            <p>Balance: $1,250.00</p>
+            <button onclick="transferMoney()">Make a Transfer</button>
+        </section>
+        <section class="transaction-history">
+            <h2>Transaction History</h2>
+            <ul id="transactions">
+                <li>Deposit - $500</li>
+                <li>Withdrawal - $200</li>
+                <li>Transfer - $100</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Bank Website | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
